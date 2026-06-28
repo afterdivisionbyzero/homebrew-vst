@@ -19,6 +19,8 @@ cask "soundtoys-little-plate@5" do
     end
   end
 
+  depends_on :macos
+
   pkg "Install Little Plate.pkg"
 
   # The Soundtoys application bundles the install of the iLok License Manager

@@ -14,6 +14,8 @@ cask "focusrite-red-plugin-suite" do
     end
   end
 
+  depends_on :macos
+
   pkg "Red Plug-In Suite Installer.pkg"
 
   uninstall pkgutil: [

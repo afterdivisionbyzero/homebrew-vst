@@ -8,6 +8,7 @@ cask "submission-audio-doubletap" do
   homepage "https://www.submissionaudio.com/products/doubletap"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "DoubleTap #{version}.pkg"
 

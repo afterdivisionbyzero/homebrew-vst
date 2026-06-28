@@ -7,7 +7,7 @@ cask "neuraldsp-archetype-tim-henson-x" do
   desc "Signature guitar plugin by Tim Henson"
   homepage "https://neuraldsp.com/plugins/archetype-tim-henson"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
 
   pkg "Archetype Tim Henson X v#{version}.pkg"

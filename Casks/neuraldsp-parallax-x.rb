@@ -7,7 +7,7 @@ cask "neuraldsp-parallax-x" do
   desc "Everything you need to design the ultimate bass tone"
   homepage "https://neuraldsp.com/plugins/parallax"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
 
   pkg "Parallax X v#{version}.pkg"

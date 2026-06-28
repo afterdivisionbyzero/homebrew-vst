@@ -8,6 +8,7 @@ cask "submission-audio-flatline@2" do
   homepage "https://www.submissionaudio.com/products/flatline"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "Flatline #{version}.pkg"
 

@@ -7,7 +7,7 @@ cask "neuraldsp-archetype-misha-mansoor-x" do
   desc "Signature guitar plugin by Misha Mansoor"
   homepage "https://neuraldsp.com/plugins/archetype-misha-mansoor"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
 
   pkg "Archetype Misha Mansoor X v#{version}.pkg"

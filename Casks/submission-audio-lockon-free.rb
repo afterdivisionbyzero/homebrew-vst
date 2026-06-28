@@ -8,6 +8,7 @@ cask "submission-audio-lockon-free" do
   homepage "https://www.submissionaudio.com/products/lockon"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "LockOn Free #{version}.pkg"
 

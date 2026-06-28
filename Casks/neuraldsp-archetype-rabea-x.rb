@@ -7,7 +7,7 @@ cask "neuraldsp-archetype-rabea-x" do
   desc "Bringing world-class synth sounds to the modern guitarist"
   homepage "https://neuraldsp.com/plugins/archetype-rabea"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
 
   pkg "Archetype Rabea X v#{version}.pkg"

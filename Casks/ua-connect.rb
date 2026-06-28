@@ -7,6 +7,8 @@ cask "ua-connect" do
   desc "Universal Audio Connect application"
   homepage "https://www.uaudio.com/apps/uaconnect/mac/installer"
 
+  depends_on :macos
+
   app "UA Connect.app"
 
   zap trash: "~/Library/Application Support/Universal Audio"

@@ -7,7 +7,7 @@ cask "neuraldsp-archetype-nolly-x" do
   desc "Signature guitar plugin by Nolly"
   homepage "https://neuraldsp.com/plugins/archetype-nolly"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
 
   pkg "Archetype Nolly X v#{version}.pkg"
