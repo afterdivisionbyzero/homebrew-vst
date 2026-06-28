@@ -17,6 +17,8 @@ cask "fractal-cab-lab-4" do
     end
   end
 
+  depends_on :macos
+
   pkg "Cab-Lab 4 Installer v#{version}.pkg"
 
   uninstall pkgutil: "com.fractalaudio.cab-lab-4"

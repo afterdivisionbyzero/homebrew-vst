@@ -7,6 +7,8 @@ cask "decomposer-sitala@1" do
   desc "Drum sampler plugin"
   homepage "https://decomposer.de/sitala/"
 
+  depends_on :macos
+
   pkg "Install Plug-ins.pkg"
 
   uninstall pkgutil: "de.decomposer.Sitala.*"

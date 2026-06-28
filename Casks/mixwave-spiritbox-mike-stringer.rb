@@ -9,6 +9,7 @@ cask "mixwave-spiritbox-mike-stringer" do
   homepage "https://mixwave.com/products/spiritbox-mike-stringer"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "MixWave+Spiritbox+-+Mike+Stringer+v#{version}.pkg"
 

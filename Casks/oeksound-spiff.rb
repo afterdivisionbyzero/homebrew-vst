@@ -9,6 +9,7 @@ cask "oeksound-spiff" do
   homepage "https://oeksound.com/plugins/spiff/"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "spiff_v#{version.no_dots}_Mac.pkg"
 

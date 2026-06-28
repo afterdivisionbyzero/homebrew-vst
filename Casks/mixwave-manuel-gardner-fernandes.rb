@@ -9,6 +9,7 @@ cask "mixwave-manuel-gardner-fernandes" do
   homepage "https://mixwave.com/products/manuel-gardner-fernandes"
 
   depends_on cask: "ilok-license-manager"
+  depends_on :macos
 
   pkg "MixWave+Manuel+Gardner+Fernandes+v#{version}.pkg"
 
