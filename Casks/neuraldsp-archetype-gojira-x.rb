@@ -7,8 +7,8 @@ cask "neuraldsp-archetype-gojira-x" do
   desc "Signature guitar plugin by Gojira's Joe Duplantier"
   homepage "https://neuraldsp.com/plugins/archetype-gojira"
 
-  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
+  depends_on macos: :ventura
 
   pkg "Archetype Gojira X v#{version}.pkg"
 

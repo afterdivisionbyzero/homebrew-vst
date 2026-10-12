@@ -7,8 +7,8 @@ cask "neuraldsp-mantra" do
   desc "All the essential tools for modern vocal production in one plugin"
   homepage "https://neuraldsp.com/plugins/mantra"
 
-  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
+  depends_on macos: :ventura
 
   pkg "Mantra v#{version}.pkg"
 
