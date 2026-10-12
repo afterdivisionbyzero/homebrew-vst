@@ -1,6 +1,6 @@
 cask "neuraldsp-archetype-rabea-x" do
-  version "1.0.1"
-  sha256 "ec9b4b196b4bb1dfd8ce00c3116604fa6610b1c91545eb8e8dd3aa82523148a1"
+  version "1.1.0"
+  sha256 "22fe5546926a9e13ca2b82c6205fbb2a51f0a4103fafe4268245675d4b626f84"
 
   url "https://downloads.neuraldsp.com/file/archetype-rabea-x-installers/v_#{version}/mac/Archetype%20Rabea%20X%20v#{version}.pkg"
   name "Neural DSP Archetype: Rabea X"

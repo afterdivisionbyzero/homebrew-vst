@@ -1,6 +1,6 @@
 cask "neuraldsp-archetype-tim-henson-x" do
-  version "1.0.1"
-  sha256 "bbcb6dabde8de931be9782d20da4f57ba2dd9de20744f12f278db4eecf407c32"
+  version "1.1.0"
+  sha256 "ca23d94ad4131574d2135e08a4e20e4bb13820f244ed839ffd399ea099de5d9b"
 
   url "https://downloads.neuraldsp.com/file/archetype-tim-henson-x/v_#{version}/mac/Archetype%20Tim%20Henson%20X%20v#{version}.pkg"
   name "Neural DSP Archetype: Tim Henson X"
