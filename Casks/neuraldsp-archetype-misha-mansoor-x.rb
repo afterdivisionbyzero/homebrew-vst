@@ -1,6 +1,6 @@
 cask "neuraldsp-archetype-misha-mansoor-x" do
-  version "1.0.1"
-  sha256 "d00887d0786901edfa013df3be7c6e13e5d9dbceb6e0edc8c84bc3a85cf1ad21"
+  version "1.1.0"
+  sha256 "d3c61add902d4d73ab2b0078e90bd82e0cfeaf27b1c255d4421621f04b9bc4a1"
 
   url "https://downloads.neuraldsp.com/file/archetype-misha-mansoor-x-installers/v_#{version}/mac/Archetype%20Misha%20Mansoor%20X%20v#{version}.pkg"
   name "Neural DSP Archetype: Misha Mansoor X"
