@@ -2,8 +2,7 @@ cask "soundtoys-little-plate@5" do
   version "5.5.4.18982"
   sha256 "1fc2e1a6819ff3255dd18bddf47ebf1ba589d6d85a1710de9b5b950932e1771d"
 
-  url "https://storage.googleapis.com/soundtoys-download/versions/version_#{version.dots_to_underscores}/LittlePlate#{version.major}_#{version}.dmg",
-      verified: "storage.googleapis.com/soundtoys-download/versions/"
+  url "https://storage.googleapis.com/soundtoys-download/versions/version_#{version.dots_to_underscores}/LittlePlate#{version.major}_#{version}.dmg"
   name "Soundtoys Little Plate"
   desc "Lush sound of plate reverb – with a modern twist"
   homepage "https://www.soundtoys.com/product/little-plate/"

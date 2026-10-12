@@ -7,8 +7,8 @@ cask "neuraldsp-fortin-nameless-suite-x" do
   desc "Legendary amplifier replicated in a beautiful plugin"
   homepage "https://neuraldsp.com/plugins/fortin-nameless-suite"
 
-  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
+  depends_on macos: :ventura
 
   pkg "Fortin Nameless Suite X v#{version}.pkg"
 

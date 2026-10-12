@@ -7,8 +7,8 @@ cask "neuraldsp-archetype-john-mayer-x" do
   desc "Signature guitar plugin by John Mayer"
   homepage "https://neuraldsp.com/plugins/archetype-john-mayer"
 
-  depends_on macos: :ventura
   depends_on cask: "ilok-license-manager"
+  depends_on macos: :ventura
 
   pkg "Archetype John Mayer X v#{version}.pkg"
 

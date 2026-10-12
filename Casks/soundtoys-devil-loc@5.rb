@@ -2,8 +2,7 @@ cask "soundtoys-devil-loc@5" do
   version "5.5.4.18982"
   sha256 "fa57107adbb1fefd08daba43043e2a397e648b726156d9a6e9fb4140cc088314"
 
-  url "https://storage.googleapis.com/soundtoys-download/versions/version_#{version.dots_to_underscores}/DevilLoc#{version.major}_#{version}.dmg",
-      verified: "storage.googleapis.com/soundtoys-download/versions/"
+  url "https://storage.googleapis.com/soundtoys-download/versions/version_#{version.dots_to_underscores}/DevilLoc#{version.major}_#{version}.dmg"
   name "Soundtoys DevilLoc"
   desc "Audio level destroyer with vintage vibe"
   homepage "https://www.soundtoys.com/product/devil-loc/"
