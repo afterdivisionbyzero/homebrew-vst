@@ -12,5 +12,5 @@ cask "oeksound-soothe@3" do
 
   pkg "soothe3_v#{version}_macos.pkg"
 
-  uninstall pkgutil: "com.oeksound.soothe*"
+  uninstall pkgutil: "com.oeksound.soothe3*"
 end
